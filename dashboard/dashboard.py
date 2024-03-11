@@ -5,7 +5,7 @@ import seaborn as sns
 import streamlit as st
 
 # Load dataset
-df = pd.read_csv("day.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/Coscenez/submision/main/dashboard/day.csv")
 
 # Data preprocessing
 column_mapping = {'dteday': 'date', 'yr': 'year', 'mnth': 'month', 'temp': 'temperature', 'hum': 'humidity','cnt': 'total'}
